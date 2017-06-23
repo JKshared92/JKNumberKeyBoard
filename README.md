@@ -4,8 +4,8 @@
 ![image](https://github.com/JKshared92/JKNumberKeyBoard/blob/master/image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-06-22%2017.17.01.png?raw=true)
 
 #### 1、导入
-可以选择下载，将demo里面的 `keyboardView` 直接拖到项目里就好了
-使用cocoapod    `pod 'JKNumberKeyBoard'`
+  可以选择下载，将demo里面的 `keyboardView` 直接拖到项目里就好了<br>
+  使用cocoapod    `pod 'JKNumberKeyBoard'`
     
 #### 2、使用
     只需在使用的地方<br>
