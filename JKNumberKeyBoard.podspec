@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "袁杰" => "506702341@qq.com" }
   s.source       = { :git => "https://github.com/JKshared92/JKNumberKeyBoard.git", :tag => "#{s.version}" }
-  s.source_files  ="JKNumberKeyBoardView/*.{h,m}”
+  s.source_files  ="JKNumberKeyBoard/*.{h,m}”
   s.requires_arc = true
 
 end
