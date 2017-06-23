@@ -38,20 +38,19 @@
     
     NSMutableString *textStr = [NSMutableString stringWithString:self.text];
     [textStr appendString:value];
-    self.text = textStr;
+    super.text = textStr;
     [self delegateForNewValue];
 }
 
 - (void)customKeyBoardDeleteValue {
-    if (self.text.length <= 0) return;
+    if (super.text.length <= 0) return;
     self.text = [self.text substringToIndex:self.text.length-1];
     [self delegateForNewValue];
 }
 
 - (void)customKeyBoardComplete {
-    [self resignFirstResponder];
     if ([self.JKDelegate respondsToSelector:@selector(textFieldDidComplete:andText:)]) {
-        [self.JKDelegate textFieldDidComplete:self andText:self.text];
+        [self.JKDelegate textFieldDidComplete:self andText:super.text];
     }
 }
 

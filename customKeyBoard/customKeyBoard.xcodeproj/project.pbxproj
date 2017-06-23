@@ -18,12 +18,12 @@
 		573FE5EE1EFBB63500963BED /* CustomKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 573FE5E31EFBB63500963BED /* CustomKeyBoardView.m */; };
 		573FE5EF1EFBB63500963BED /* CustomKeyBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573FE5E41EFBB63500963BED /* CustomKeyBoardView.xib */; };
 		573FE5F01EFBB63500963BED /* JKNumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 573FE5E61EFBB63500963BED /* JKNumberTextField.m */; };
-		573FE5F11EFBB63500963BED /* keyboard_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 573FE5E81EFBB63500963BED /* keyboard_delete.png */; };
-		573FE5F21EFBB63500963BED /* keyboard_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 573FE5E91EFBB63500963BED /* keyboard_delete@2x.png */; };
-		573FE5F31EFBB63500963BED /* keyboard_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 573FE5EA1EFBB63500963BED /* keyboard_delete@3x.png */; };
-		573FE5F41EFBB63500963BED /* keyboard_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 573FE5EB1EFBB63500963BED /* keyboard_down.png */; };
-		573FE5F51EFBB63500963BED /* keyboard_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 573FE5EC1EFBB63500963BED /* keyboard_down@2x.png */; };
-		573FE5F61EFBB63500963BED /* keyboard_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 573FE5ED1EFBB63500963BED /* keyboard_down@3x.png */; };
+		576366AB1EFCB52000C0BA08 /* keyboard_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 576366A51EFCB52000C0BA08 /* keyboard_delete.png */; };
+		576366AC1EFCB52000C0BA08 /* keyboard_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 576366A61EFCB52000C0BA08 /* keyboard_delete@2x.png */; };
+		576366AD1EFCB52000C0BA08 /* keyboard_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 576366A71EFCB52000C0BA08 /* keyboard_delete@3x.png */; };
+		576366AE1EFCB52000C0BA08 /* keyboard_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 576366A81EFCB52000C0BA08 /* keyboard_down.png */; };
+		576366AF1EFCB52000C0BA08 /* keyboard_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 576366A91EFCB52000C0BA08 /* keyboard_down@2x.png */; };
+		576366B01EFCB52000C0BA08 /* keyboard_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 576366AA1EFCB52000C0BA08 /* keyboard_down@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,12 +65,12 @@
 		573FE5E41EFBB63500963BED /* CustomKeyBoardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomKeyBoardView.xib; sourceTree = "<group>"; };
 		573FE5E51EFBB63500963BED /* JKNumberTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNumberTextField.h; sourceTree = "<group>"; };
 		573FE5E61EFBB63500963BED /* JKNumberTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKNumberTextField.m; sourceTree = "<group>"; };
-		573FE5E81EFBB63500963BED /* keyboard_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_delete.png; sourceTree = "<group>"; };
-		573FE5E91EFBB63500963BED /* keyboard_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_delete@2x.png"; sourceTree = "<group>"; };
-		573FE5EA1EFBB63500963BED /* keyboard_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_delete@3x.png"; sourceTree = "<group>"; };
-		573FE5EB1EFBB63500963BED /* keyboard_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_down.png; sourceTree = "<group>"; };
-		573FE5EC1EFBB63500963BED /* keyboard_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_down@2x.png"; sourceTree = "<group>"; };
-		573FE5ED1EFBB63500963BED /* keyboard_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_down@3x.png"; sourceTree = "<group>"; };
+		576366A51EFCB52000C0BA08 /* keyboard_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_delete.png; sourceTree = "<group>"; };
+		576366A61EFCB52000C0BA08 /* keyboard_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_delete@2x.png"; sourceTree = "<group>"; };
+		576366A71EFCB52000C0BA08 /* keyboard_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_delete@3x.png"; sourceTree = "<group>"; };
+		576366A81EFCB52000C0BA08 /* keyboard_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_down.png; sourceTree = "<group>"; };
+		576366A91EFCB52000C0BA08 /* keyboard_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_down@2x.png"; sourceTree = "<group>"; };
+		576366AA1EFCB52000C0BA08 /* keyboard_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_down@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,20 +169,20 @@
 				573FE5E41EFBB63500963BED /* CustomKeyBoardView.xib */,
 				573FE5E51EFBB63500963BED /* JKNumberTextField.h */,
 				573FE5E61EFBB63500963BED /* JKNumberTextField.m */,
-				573FE5E71EFBB63500963BED /* picture */,
+				576366A41EFCB52000C0BA08 /* picture */,
 			);
 			path = keyboardView;
 			sourceTree = "<group>";
 		};
-		573FE5E71EFBB63500963BED /* picture */ = {
+		576366A41EFCB52000C0BA08 /* picture */ = {
 			isa = PBXGroup;
 			children = (
-				573FE5E81EFBB63500963BED /* keyboard_delete.png */,
-				573FE5E91EFBB63500963BED /* keyboard_delete@2x.png */,
-				573FE5EA1EFBB63500963BED /* keyboard_delete@3x.png */,
-				573FE5EB1EFBB63500963BED /* keyboard_down.png */,
-				573FE5EC1EFBB63500963BED /* keyboard_down@2x.png */,
-				573FE5ED1EFBB63500963BED /* keyboard_down@3x.png */,
+				576366A51EFCB52000C0BA08 /* keyboard_delete.png */,
+				576366A61EFCB52000C0BA08 /* keyboard_delete@2x.png */,
+				576366A71EFCB52000C0BA08 /* keyboard_delete@3x.png */,
+				576366A81EFCB52000C0BA08 /* keyboard_down.png */,
+				576366A91EFCB52000C0BA08 /* keyboard_down@2x.png */,
+				576366AA1EFCB52000C0BA08 /* keyboard_down@3x.png */,
 			);
 			path = picture;
 			sourceTree = "<group>";
@@ -293,15 +293,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573FE5F61EFBB63500963BED /* keyboard_down@3x.png in Resources */,
-				573FE5F21EFBB63500963BED /* keyboard_delete@2x.png in Resources */,
-				573FE5F31EFBB63500963BED /* keyboard_delete@3x.png in Resources */,
+				576366B01EFCB52000C0BA08 /* keyboard_down@3x.png in Resources */,
+				576366AC1EFCB52000C0BA08 /* keyboard_delete@2x.png in Resources */,
+				576366AD1EFCB52000C0BA08 /* keyboard_delete@3x.png in Resources */,
 				573FE5BE1EFBB5FC00963BED /* LaunchScreen.storyboard in Resources */,
-				573FE5F51EFBB63500963BED /* keyboard_down@2x.png in Resources */,
+				576366AF1EFCB52000C0BA08 /* keyboard_down@2x.png in Resources */,
 				573FE5BB1EFBB5FC00963BED /* Assets.xcassets in Resources */,
-				573FE5F41EFBB63500963BED /* keyboard_down.png in Resources */,
+				576366AE1EFCB52000C0BA08 /* keyboard_down.png in Resources */,
 				573FE5EF1EFBB63500963BED /* CustomKeyBoardView.xib in Resources */,
-				573FE5F11EFBB63500963BED /* keyboard_delete.png in Resources */,
+				576366AB1EFCB52000C0BA08 /* keyboard_delete.png in Resources */,
 				573FE5B91EFBB5FC00963BED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,6 +565,7 @@
 				573FE5DA1EFBB5FC00963BED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		573FE5DB1EFBB5FC00963BED /* Build configuration list for PBXNativeTarget "customKeyBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +574,7 @@
 				573FE5DD1EFBB5FC00963BED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		573FE5DE1EFBB5FC00963BED /* Build configuration list for PBXNativeTarget "customKeyBoardUITests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +583,7 @@
 				573FE5E01EFBB5FC00963BED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

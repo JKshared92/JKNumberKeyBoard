@@ -8,10 +8,12 @@
 
 #import "CustomKeyBoardView.h"
 
+#define JKKeyBoardBundle [NSBundle bundleForClass:[self class]]
+
 @implementation CustomKeyBoardView
 
 + (instancetype)shareView {
-    return [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([CustomKeyBoardView class]) owner:self options:nil] objectAtIndex:0];
+    return [[JKKeyBoardBundle loadNibNamed:NSStringFromClass([CustomKeyBoardView class]) owner:self options:nil] objectAtIndex:0];
 }
 
 - (IBAction)deleteOneValue:(UIButton *)sender {
