@@ -33,7 +33,7 @@
     if (sender.tag == 121) {
         string = @".";
     }else {
-        string = [NSString stringWithFormat:@"%ld",sender.tag%10];
+        string = [NSString stringWithFormat:@"%ld",(long)sender.tag%10];
     }
     if ([self.delegate respondsToSelector:@selector(customKeyBoardAddNewValue:)]) {
         [self.delegate customKeyBoardAddNewValue:string];
