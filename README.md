@@ -15,4 +15,32 @@ JKNumberTextField是继承UITextField，所以属性设置都不用变<br>
 
 用法与UITextField一致
 
+```
+#import "JKNumberTextField.h"
+
+//代理<JKNumberTextFieldDelegate>
+
+{
+    JKNumberTextField *textField = [[JKNumberTextField alloc] init];
+    textField.JKDelegate = self;
+    /** 创建用init，代理注意不要写成delegete了
+     *  继承于YUTextField，设置属性就好，暂不支持xib和sb
+     */
+    textField.frame = CGRectMake(50, 200, 200, 30);
+    textField.borderStyle = UITextBorderStyleRoundedRect;
+    [self.view addSubview:textField];
+}
+
+//实现代理方法即可
+/**点击收键盘时调用*/
+- (void)textFieldDidComplete:(JKNumberTextField *)textField andText:(NSString *)text {
+    [textField resignFirstResponder];
+}
+
+/**值变化时调用*/
+- (void)textFieldDidChangeAnyValue:(JKNumberTextField *)textField andText:(NSString *)text {
+        //这里的text不是变化的值，是textField的text
+}
+```
+
 [可以去我的简书看看简单的使用方法](http://www.jianshu.com/p/8ca6eb44f6b8) 
