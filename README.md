@@ -5,7 +5,7 @@
 
 #### 1、导入
     可以选择下载，将demo里面的 `keyboardView` 直接拖到项目里就好了
-    使用cocoapod    `pod 'JKNumberKeyBoard'`
+    使用cocoapod    `pod 'JKNumberKeyBoard'`
     
 #### 2、使用
     只需在使用的地方<br>
