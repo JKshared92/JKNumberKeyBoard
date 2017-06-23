@@ -14,3 +14,5 @@ JKNumberTextField是继承UITextField，所以属性设置都不用变<br>
 用[[JKNumberTextField alloc] init]创建，设置代理JKDelegate即可<br>
 
 用法与UITextField一致
+
+[可以去我的简书看看简单的使用方法](http://www.jianshu.com/p/8ca6eb44f6b8) 
