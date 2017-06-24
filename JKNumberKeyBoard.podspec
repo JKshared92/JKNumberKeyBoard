@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'JKNumberKeyBoard'
-  s.version      = '1.5.0'
+  s.version      = '5.2.0'
   s.summary      = 'I love you , never change'
   s.homepage     = 'https://github.com/JKshared92/JKNumberKeyBoard'
   s.license      = 'MIT'
@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.source_files  ='JKNumberKeyBoard/*.{h,m}'
   s.requires_arc = true
   s.platform     = :ios, '6.0'
-  s.resources    = 'JKNumberKeyBoard/*.{xib,png}'
+  s.resources    = 'JKNumberKeyBoard/*'
 
 end
