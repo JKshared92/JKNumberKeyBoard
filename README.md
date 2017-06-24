@@ -10,13 +10,13 @@
 #### 2、使用
     只需在使用的地方<br>
 
-    #import "JKNumberTextField.h"<br>
+    #import "JKNumberTextField.h"
 
-    创建输入框时用JKNumberTextField创建就好<br>
+    创建输入框时用JKNumberTextField创建就好
 
-    JKNumberTextField是继承UITextField，所以属性设置都不用变<br>
+    JKNumberTextField是继承UITextField，所以属性设置都不用变
 
-    用[[JKNumberTextField alloc] init]创建，设置代理JKDelegate即可<br>
+    用[[JKNumberTextField alloc] init]创建，设置代理JKDelegate即可
 
     用法与UITextField一致
 
