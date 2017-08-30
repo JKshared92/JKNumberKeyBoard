@@ -33,6 +33,7 @@
      */
     textField.frame = CGRectMake(50, 200, 200, 30);
     textField.borderStyle = UITextBorderStyleRoundedRect;
+    textField.point = NO;/**可以选择不要小数点，默认支持小数点*/
     [self.view addSubview:textField];
 }
 
