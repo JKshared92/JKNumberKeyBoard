@@ -16,6 +16,17 @@
     return [[JKKeyBoardBundle loadNibNamed:NSStringFromClass([CustomKeyBoardView class]) owner:self options:nil] objectAtIndex:0];
 }
 
+- (void)setPoint:(BOOL)point {
+    _point = point;
+    if (!point) {
+        self.pointBtn.userInteractionEnabled = NO;
+        self.pointLbl.text = @"";
+    }else {
+        self.pointBtn.userInteractionEnabled = YES;
+        self.pointLbl.text = @".";
+    }
+}
+
 - (IBAction)deleteOneValue:(UIButton *)sender {
     if ([self.delegate respondsToSelector:@selector(customKeyBoardDeleteValue)]) {
         [self.delegate customKeyBoardDeleteValue];

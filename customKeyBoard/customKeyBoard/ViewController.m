@@ -26,6 +26,8 @@
      */
     textField.frame = CGRectMake(50, 200, 200, 30);
     textField.borderStyle = UITextBorderStyleRoundedRect;
+    /**新加参数，直接当属性使用就可以*/
+    textField.point = NO;
     [self.view addSubview:textField];
 }
 

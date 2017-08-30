@@ -19,6 +19,8 @@
 
 @interface JKNumberTextField : UITextField<CustomKeyBoardViewDelegate>
 
+/**是否支持小数，默认支持*/
+@property (nonatomic, assign) BOOL point;
 @property (nonatomic, weak) id<JKNumberTextFieldDelegate> JKDelegate;
 
 @end

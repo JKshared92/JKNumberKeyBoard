@@ -24,6 +24,11 @@
 
 + (instancetype)shareView;
 
+@property (weak, nonatomic) IBOutlet UILabel *pointLbl;
+@property (weak, nonatomic) IBOutlet UIButton *pointBtn;
+
 @property (nonatomic, weak) id<CustomKeyBoardViewDelegate> delegate;
+
+@property (nonatomic, assign) BOOL point;
 
 @end

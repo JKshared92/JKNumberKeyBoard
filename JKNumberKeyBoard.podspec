@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'JKNumberKeyBoard'
-  s.version      = '5.2.0'
+  s.version      = '5.2.1'
   s.summary      = 'I love you , never change'
   s.homepage     = 'https://github.com/JKshared92/JKNumberKeyBoard'
   s.license      = 'MIT'

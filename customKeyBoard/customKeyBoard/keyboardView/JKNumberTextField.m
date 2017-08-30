@@ -10,22 +10,38 @@
 
 @interface JKNumberTextField ()
 
+@property (nonatomic, strong) CustomKeyBoardView *keyboard;
+
 @end
 
 @implementation JKNumberTextField
 
+- (CustomKeyBoardView *)keyboard {
+    if (!_keyboard) {
+        _keyboard = [CustomKeyBoardView shareView];
+        _keyboard.delegate = self;
+    }
+    return _keyboard;
+}
+
 - (instancetype)init {
     self = [super init];
     if (self) {
-        CustomKeyBoardView *keyBoard = [CustomKeyBoardView shareView];
-        keyBoard.delegate = self;
-        self.inputView = keyBoard;
+        self.inputView = self.keyboard;
     }
     return self;
 }
 
+- (void)setPoint:(BOOL)point {
+    _point = point;
+    self.keyboard.point = point;
+}
+
 - (void)customKeyBoardAddNewValue:(NSString *)value {
     if ([value isEqualToString:@"."]) {
+        if (!self.point) {
+            return;
+        }
         if (self.text.length == 0) {
             self.text = @"0.";
             [self delegateForNewValue];
@@ -38,19 +54,20 @@
     
     NSMutableString *textStr = [NSMutableString stringWithString:self.text];
     [textStr appendString:value];
-    super.text = textStr;
+    self.text = textStr;
     [self delegateForNewValue];
 }
 
 - (void)customKeyBoardDeleteValue {
-    if (super.text.length <= 0) return;
+    if (self.text.length <= 0) return;
     self.text = [self.text substringToIndex:self.text.length-1];
     [self delegateForNewValue];
 }
 
 - (void)customKeyBoardComplete {
+    [self resignFirstResponder];
     if ([self.JKDelegate respondsToSelector:@selector(textFieldDidComplete:andText:)]) {
-        [self.JKDelegate textFieldDidComplete:self andText:super.text];
+        [self.JKDelegate textFieldDidComplete:self andText:self.text];
     }
 }
 
